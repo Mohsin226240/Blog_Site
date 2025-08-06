@@ -364,4 +364,18 @@ footer {
         flex-direction: column;
         gap: 0.5rem;
     }
+    .blog-posts {
+        grid-template-columns: 1fr;
+    }
+    .post-content {
+        padding: 1rem;
+    }
+    .post-preview img {
+        height: auto;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    .blog-posts {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
