@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevInsights | A Developer's Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <input type="checkbox" id="theme-toggle" class="theme-toggle-checkbox">
+    <div class="page-wrapper">
+        <header>
+            <div class="container header-container">
+                <a href="#" class="logo">DevInsights</a>
+                <nav>
+                    <ul>
+                        <li><a href="#" class="active">Home</a></li>
+                        <li><a href="#">Articles</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="theme-switcher">
+                    <i class="fas fa-sun"></i>
+                    <label for="theme-toggle" class="switch">
+                        <span class="slider round"></span>
+                    </label>
+                    <i class="fas fa-moon"></i>
+                </div>
+            </div>
+        </header>
+        <section class="hero">
+            <div class="container">
+                <h1>Welcome to DevInsights</h1>
+                <p>Your daily dose of development tips, tutorials, and tech news.</p>
+            </div>
+        </section>
+
+        <div class="container main-content-grid">
+            <main class="blog-posts">
+                <h2>Latest Posts</h2>
+                
+                <article class="post-preview">
+                    <img src="https://picsum.photos/seed/cssGrid/800/400" alt="Abstract code on a screen">
+                    <div class="post-content">
+                        <h3>Mastering CSS Grid Layout</h3>
+                        <p class="post-meta">Published on August 6, 2025 by Jane Doe</p>
+                        <p>Dive deep into the powers of CSS Grid and learn how to create complex, responsive layouts with simple and clean code. We'll cover everything from the basics to advanced techniques.</p>
+                        <a href="#" class="read-more">Read More &rarr;</a>
+                    </div>
+                </article>
+
+                <article class="post-preview">
+                    <img src="https://picsum.photos/seed/javascript/800/400" alt="JavaScript code snippet">
+                    <div class="post-content">
+                        <h3>10 JavaScript ES2025 Features You Should Know</h3>
+                         <p class="post-meta">Published on August 5, 2025 by John Smith</p>
+                        <p>JavaScript is constantly evolving. Stay ahead of the curve by learning about the exciting new features introduced in ES2025 that will make your code more efficient and powerful.</p>
+                        <a href="#" class="read-more">Read More &rarr;</a>
+                    </div>
+                </article>
+
+                <article class="post-preview">
+                    <img src="https://picsum.photos/seed/webperf/800/400" alt="A website loading speed indicator">
+                    <div class="post-content">
+                        <h3>Front-End Performance Optimization Checklist</h3>
+                        <p class="post-meta">Published on August 4, 2025 by Alex Johnson</p>
+                        <p>Is your website slow? This comprehensive checklist provides actionable steps to improve your site's loading speed, from image optimization to code minification and caching strategies.</p>
+                        <a href="#" class="read-more">Read More &rarr;</a>
+                    </div>
+                </article>
+                
+                <article class="post-preview">
+                    <img src="https://picsum.photos/seed/reacthooks/800/400" alt="React logo with code">
+                    <div class="post-content">
+                        <h3>Getting Started with React Hooks</h3>
+                        <p class="post-meta">Published on August 3, 2025 by Emily White</p>
+                        <p>Say goodbye to class components. This guide will introduce you to React Hooks, explaining useState, useEffect, and how they simplify your component logic and state management.</p>
+                        <a href="#" class="read-more">Read More &rarr;</a>
+                    </div>
+                </article>
+
+                <article class="post-preview">
+                    <img src="https://picsum.photos/seed/accessibility/800/400" alt="A screen reader icon">
+                    <div class="post-content">
+                        <h3>Web Accessibility: A Guide for Developers</h3>
+                         <p class="post-meta">Published on August 2, 2025 by Chris Green</p>
+                        <p>Building for everyone is crucial. Learn the fundamentals of web accessibility (a11y), understand ARIA roles, and find out how to make your websites usable by all users.</p>
+                        <a href="#" class="read-more">Read More &rarr;</a>
+                    </div>
+                </article>
+
+                <article class="post-preview">
+                    <img src="https://picsum.photos/seed/devops/800/400" alt="Diagram showing a DevOps lifecycle">
+                    <div class="post-content">
+                        <h3>An Introduction to DevOps for Developers</h3>
+                        <p class="post-meta">Published on August 1, 2025 by Samira Khan</p>
+                        <p>DevOps isn't just for operations teams. Discover the core principles of DevOps, and learn how tools like Docker and CI/CD pipelines can streamline your development workflow.</p>
+                        <a href="#" class="read-more">Read More &rarr;</a>
+                    </div>
+                </article>
+            </main>
+
+            <aside class="sidebar">
+                <div class="widget">
+                    <h3>Search</h3>
+                    <div class="search-box">
+                        <input type="text" placeholder="Search articles...">
+                        <button><i class="fas fa-search"></i></button>
+                    </div>
+                </div>
+
+                <div class="widget">
+                    <h3>Categories</h3>
+                    <ul class="category-list">
+                        <li><a href="#">HTML & CSS <span>(12)</span></a></li>
+                        <li><a href="#">JavaScript <span>(25)</span></a></li>
+                        <li><a href="#">React <span>(10)</span></a></li>
+                        <li><a href="#">Web Design <span>(8)</span></a></li>
+                        <li><a href="#">DevOps <span>(4)</span></a></li>
+                    </ul>
+                </div>
+                
+                <div class="widget">
+                    <h3>Recent Posts</h3>
+                    <ul class="recent-posts-list">
+                        <li><a href="#">Mastering CSS Grid Layout</a></li>
+                        <li><a href="#">10 JavaScript ES2025 Features</a></li>
+                        <li><a href="#">Front-End Performance Checklist</a></li>
+                        <li><a href="#">Getting Started with React Hooks</a></li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+        <footer>
+            <div class="container footer-container">
+                <div class="footer-links">
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+                <p>&copy; 2025 DevInsights. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
